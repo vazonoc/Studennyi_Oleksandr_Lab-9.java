@@ -13,7 +13,7 @@ public class TestApplication2 extends JFrame {
         this.setSize(300, 300);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        this.setTitle("Our Test Application");
+        this.setTitle("Вікно виконнання завдання");
         this.setLayout(layout);
 
         JLabel label1 = new JLabel("Сила (F): ");
@@ -36,7 +36,7 @@ public class TestApplication2 extends JFrame {
         constraints.gridy = 0;
         this.add(textField2, constraints);
 
-        JButton calculateButton = new JButton("Calculate");
+        JButton calculateButton = new JButton("Обрахунок");
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
